@@ -28,14 +28,15 @@ const Navbar = ({ user, setUser }) => {
                     className="flex items-center gap-2 text-lg font-semibold tracking-wide text-gray-900"
                 >
                     <span className="
-                  flex items-center justify-center
-                  w-8 h-8
-                  rounded-lg
-                 dark:bg-gray-800
-                  border border-white/30
-                  text-white text-sm font-semibold
-                  leading-none
-                 ">
+                    flex items-center justify-center
+                    w-8 h-8
+                    rounded-lg
+                    dark:bg-gray-800
+                    border border-white/30
+                    text-gray-900 dark:text-white
+                    text-sm font-semibold
+                    leading-none
+                      ">
                         N
                     </span>
                     <span>Note<span className="font-bold">AI</span></span>
