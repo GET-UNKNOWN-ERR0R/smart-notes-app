@@ -31,9 +31,9 @@ const Navbar = ({ user, setUser }) => {
                     flex items-center justify-center
                     w-8 h-8
                     rounded-lg
-                    dark:bg-gray-800
+                  bg-gray-800
                     border border-white/30
-                    text-gray-900 dark:text-white
+                    text-white
                     text-sm font-semibold
                     leading-none
                       ">

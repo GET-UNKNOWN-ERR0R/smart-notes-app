@@ -81,7 +81,7 @@ const Home = () => {
 
     return (
         <div className="min-h-screen bg-linear-to-br from-violet-100 to-blue-100">
-            <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+            <div className="max-w-7xl mx-auto p-9 sm:p-6 lg:p-8">
 
 
                 {error && (
@@ -128,12 +128,12 @@ const Home = () => {
 
                 <div
                     className="
-    grid pt-5 mt-6 gap-6
-    grid-cols-1
-    sm:grid-cols-2
-    lg:grid-cols-3
-    xl:grid-cols-4
-  "
+        grid pt-5 mt-6 gap-6
+        grid-cols-1
+        sm:grid-cols-2
+        lg:grid-cols-3
+        xl:grid-cols-4
+         "
                 >
                     {notes.map(note => (
                         <div
